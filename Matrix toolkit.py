@@ -68,7 +68,7 @@ def menu():
 def run():
     while True:
         menu()
-        choice = input("choose: ").split()
+        choice = input("choose: ")
 
         if choice == "0":
             print("bye")
