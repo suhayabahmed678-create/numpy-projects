@@ -7,7 +7,7 @@ class MatrixBuilder:
         r = int (input(f"{name}: rows"))
         c = int (input(f"{name}: cols"))
         print(f"Enter {r*c} values (space separated):")
-        values = list(map(float , input("> ").split()))
+        values = list(map(int , input("> ").split()))
         return np.array(values).reshape(r, c)
 
 
