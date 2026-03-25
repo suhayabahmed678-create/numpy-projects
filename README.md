@@ -1,63 +1,49 @@
-# numpy-projects
-Smart Matrix Toolkit is a command-line based matrix calculator that helps users perform fundamental linear algebra operations quickly and interactively.
+NumPy Projects Collection
 
-Users can input matrices directly through the terminal and compute results such as:
+Welcome to my **NumPy Projects Repository** 
+This repo contains practical and real-life inspired projects built using **NumPy**.
 
-Matrix addition
-Matrix multiplication
-Transpose
-Determinant
-Inverse
-Matrix rank
+Projects Included
 
-The program automatically validates matrix shapes before performing operations and handles invalid operations safely.
+🔹1.Matrix Toolkit
 
-This project demonstrates practical applications of the academic field Linear Algebra using Python.
+A smart matrix operations tool built using NumPy.
+
 
 Features
+* Matrix Addition
+* Matrix Multiplication
+* Transpose
+* Determinant
+* Inverse
+* Rank Calculation
 
- Interactive CLI matrix input
- Matrix addition
- Matrix multiplication
- Matrix transpose
- Determinant calculation
- Matrix inverse calculation
- Matrix rank detection
- Shape validation before operations
- Clean class-based architecture
- Built using NumPy for efficient computation
+Purpose:
 
-Architecture
+To practice **Linear Algebra concepts** and NumPy operations.
 
-The project follows a simple modular design.
+ 2. Smart Synthetic Lab
 
-User Input (CLI)
-        │
-        ▼
-MatrixBuilder
-        │
-        ▼
-MatrixBrain  → matrix analysis
-        │
-        ▼
-MatrixOps    → matrix operations
-Components
+A synthetic data generator for testing and machine learning practice.
 
-MatrixBuilder
+Features:
 
-Handles matrix input
-Converts user input into NumPy arrays
+* Generate random data:
 
-MatrixBrain
+  * Normal Distribution
+  * Uniform Distribution
+  * Integer Data
+* Optional Scaling (0–1)
+* Dataset Summary (mean, std, shape)
+* Export to CSV file
 
-Performs matrix analysis:
-transpose
-determinant
-inverse
-rank
+Purpose:
 
-MatrixOps
+To simulate real-world datasets for **data analysis & ML practice**.
 
-Handles matrix-to-matrix operations:
-addition
-multiplication
+---
+
+Technologies Used
+
+* Python 🐍
+* NumPy 
