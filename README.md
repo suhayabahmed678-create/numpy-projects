@@ -5,7 +5,7 @@ This repo contains practical and real-life inspired projects built using **NumPy
 
 Projects Included
 
-🔹1.Matrix Toolkit
+1.Matrix Toolkit
 
 A smart matrix operations tool built using NumPy.
 
